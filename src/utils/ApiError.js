@@ -1,10 +1,10 @@
-const { m } = require("framer-motion")
+// const { m } = require("framer-motion")
 
 class ApiError extends Error {
     constructor(
         statusCode,
         message="Something went wrong",
-        error = [],
+        errors = [],
         stack = ""
     ){
         super(message),
